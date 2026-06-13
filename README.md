@@ -2,7 +2,7 @@
 A bare-metal ATmega16 automatic pet feeder project with loadcell and RTC
 # Smart Pet Feeder System 
 
-# A fully automated, soft real-time embedded system designed to dispense pet food based on customizable schedules and precise weight measurements. [cite_start]Built on the AVR architecture, this project demonstrates hardware-software co-design, non-blocking firmware execution, and custom PCB routing.
+ A fully automated, soft real-time embedded system designed to dispense pet food based on customizable schedules and precise weight measurements. [cite_start]Built on the AVR architecture, this project demonstrates hardware-software co-design, non-blocking firmware execution, and custom PCB routing.
 
 ---
 
