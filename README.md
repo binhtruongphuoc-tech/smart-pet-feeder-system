@@ -1,12 +1,12 @@
 # smart-pet-feeder-system
 A bare-metal ATmega16 automatic pet feeder project with loadcell and RTC
-# Smart Pet Feeder System 🐾
+# Smart Pet Feeder System 
 
 [cite_start]A fully automated, soft real-time embedded system designed to dispense pet food based on customizable schedules and precise weight measurements. [cite_start]Built on the AVR architecture, this project demonstrates hardware-software co-design, non-blocking firmware execution, and custom PCB routing.
 
 ---
 
-## 🚀 System Architecture & Hardware Specifications
+##  System Architecture & Hardware Specifications
 
 [cite_start]The system is designed around a central microcontroller that handles real-time clock inputs, structural weight sensor filtering, and PWM actuation:
 
@@ -19,7 +19,7 @@ A bare-metal ATmega16 automatic pet feeder project with loadcell and RTC
 
 ---
 
-## 📊 System Design Details
+##  System Design Details
 
 ### Hardware Block Diagram
 [cite_start]Below is the structural layout illustrating how the peripheral units interact with the main MCU core:
@@ -33,7 +33,7 @@ A bare-metal ATmega16 automatic pet feeder project with loadcell and RTC
 
 ---
 
-## 📸 Project Gallery & Results
+##  Project Gallery & Results
 
 ### Circuit Simulation & PCB Design
 [cite_start]The system was successfully simulated and modeled before physical fabrication. [cite_start]The PCB layout consists of a optimized single-layer routing designed for seamless manual etching.
@@ -51,7 +51,7 @@ A bare-metal ATmega16 automatic pet feeder project with loadcell and RTC
 
 ---
 
-## 🛠️ Future Enhancements
+##  Future Enhancements
 * [cite_start]**IoT Upgrade:** Integrating an ESP32/ESP8266 Wi-Fi module for cloud synchronization and remote app-based configurations.
 * [cite_start]**Closed-Loop Bowl Monitor:** Installing an infrared or proximity sensor on the feeding tray to prevent over-dispensing when food is left over.
 * [cite_start]**Power Redundancy:** Introducing a secondary battery backup line to secure feeding operations during standard blackouts.
