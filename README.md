@@ -36,7 +36,7 @@ Below is the structural layout illustrating how the peripheral units interact wi
 ##  Project Gallery & Results
 
 ### Circuit Simulation & PCB Design
-The system was successfully simulated and modeled before physical fabrication. [cite_start]The PCB layout consists of a optimized single-layer routing designed for seamless manual etching.
+The system was successfully simulated and modeled before physical fabrication. The PCB layout consists of a optimized single-layer routing designed for seamless manual etching.
 
 | Proteus Simulation | Altium PCB Layout | 3D Board Visualization |
 | :---: | :---: | :---: |
