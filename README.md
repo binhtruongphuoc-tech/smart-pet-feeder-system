@@ -51,10 +51,6 @@ The final system achieved a top 3 ranking in excellence during class presentatio
 
 
 ##  My Contributions
-As a core team member, I was responsible for bridging the gap between the hardware and software sides of the project. Here’s what I focused on:
+As a core member of the team, I wore several hats to bridge the gap between our **hardware**, **firmware**, and **mechanical design**. My primary focus was ensuring that the different layers of the project actually played nice with each other.
 
-* **Firmware:** Developed low-level C drivers to handle PWM control for the SG90 servo and set up the buzzer for system alerts.
-* **Hardware Assembly:** Hand-soldered all ICs and components onto the custom PCB, making sure everything was wired cleanly and reliably.
-* **Mechanical Integration:** Built the main housing and connected the control board to the dispensing mechanism so the hardware and software could work in sync.
-* **Testing & Debugging:** Spent a lot of time on system testing, troubleshooting hardware glitches, and fixing firmware bugs to keep the system stable.
-* **System Design & Documentation:** Created the software flowcharts and wrote the final engineering report to document how everything comes together
+I handled the low-level C development for the servo motors and buzzer alerts, while also getting hands-on with the PCB assembly—soldering everything myself to ensure the connections were solid. Beyond the electronics, I built out the housing and integrated the control board with the mechanical dispensing gate. A big part of my role was also the 'messy' side of the project: troubleshooting hardware glitches and debugging firmware quirks to get the system stable. Finally, I mapped out our software architecture through flowcharts and pulled together our final engineering report to document how all the pieces fit together.
