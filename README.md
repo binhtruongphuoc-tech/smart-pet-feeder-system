@@ -24,11 +24,6 @@ Below is the structural layout illustrating how the peripheral units interact wi
 
 ![System Block Diagram](images/block_diagram.png)
 
-### Core Firmware Features
-* **Non-Blocking Execution:** Designed with a maximum loop latency under 200ms to maintain strict event responsiveness.
-* **Signal Smoothing (DSP):** Features a software-level moving average algorithm for the HX711 ADC to eliminate mechanical vibrations, keeping weight errors within $\pm5g$.
-* **Persistant Storage:** Feeding times and custom parameters are dynamically saved onto the onboard EEPROM memory.
-
 ---
 
 ##  Project Gallery & Results
