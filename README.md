@@ -2,7 +2,7 @@
 A bare-metal ATmega16 automatic pet feeder project with loadcell, RTC, servo.
 # Smart Pet Feeder System 
 
- A fully automated, soft real-time embedded system designed to dispense pet food based on customizable schedules and precise weight measurements. [cite_start]Built on the AVR architecture, this project demonstrates hardware-software co-design, non-blocking firmware execution, and custom PCB routing.
+An automatic pet feeder project I built as part of my embedded systems coursework. The system uses a load cell to measure food weight and an RTC for scheduling, all controlled by an ATmega16A.
 
 ---
 
@@ -10,12 +10,10 @@ A bare-metal ATmega16 automatic pet feeder project with loadcell, RTC, servo.
 
 The system is designed around a central microcontroller that handles real-time clock inputs, structural weight sensor filtering, and PWM actuation:
 
-* **Microcontroller:** ATmega16A (8-bit AVR running at an internal/external clock).
-* **Timekeeping module:** RTC DS1307 utilizing the I2C communication protocol for reliable feeding schedules.
-* **Weight Measurement:** 5kg Load cell interfaced with a high-precision HX711 24-bit ADC module.
-* **Actuator mechanism:** SG90 Micro Servo motor driven by dedicated PWM signals to control the dispenser gate.
-* **User Interface:** A 16x2 Character LCD paired with a 4x4 Matrix Keypad for localized time and portion configuration.
-* **Power Management:** System operates on a stable 5V DC adapter with isolated paths to mitigate servo back-EMF noise.
+* **Microcontroller:** .ATmega16A (Bare-metal C)
+* **Peripherals:** RTC DS1307 (I2C), HX711 ADC (Load cell), SG90 Servo (PWM)
+* **User Interface:** 16x2 LCD, 4x4 Keypad
+* **PCB Design:** Altium Designer (Single-layer)
 
 ---
 
@@ -58,10 +56,10 @@ The final system achieved a top 3 ranking in excellence during class presentatio
 
 
 ##  My Contributions
-As a core team member of this project, I was responsible for bridging the gap between hardware assembly, software logic, and mechanical design. My specific contributions include:
+As a core team member, I was responsible for bridging the gap between the hardware and software sides of the project. Here’s what I focused on:
 
-* **Firmware Development:** Engineered the low-level C drivers for the SG90 Servo motor (PWM control) and the active buzzer for system alerts.
-* **Hardware Assembly & Soldering:** Hand-soldered the ICs and discrete components onto the custom PCB, ensuring reliable and clean electrical connections.
-* **Mechanical Integration:** Constructed and assembled the physical housing of the pet feeder, seamlessly integrating the electronic control board with the mechanical dispensing gate.
-* **Testing & Debugging:** Conducted extensive hardware-software integration testing, troubleshooting hardware quirks, and debugging firmware logic to ensure stable operation.
-* **System Design & Documentation:** Designed the software architecture flowcharts and authored the comprehensive final engineering report for the project.
+* **Firmware:** Developed low-level C drivers to handle PWM control for the SG90 servo and set up the buzzer for system alerts.
+* **Hardware Assembly:** Hand-soldered all ICs and components onto the custom PCB, making sure everything was wired cleanly and reliably.
+* **Mechanical Integration:** Built the main housing and connected the control board to the dispensing mechanism so the hardware and software could work in sync.
+* **Testing & Debugging:** Spent a lot of time on system testing, troubleshooting hardware glitches, and fixing firmware bugs to keep the system stable.
+* **System Design & Documentation:** Created the software flowcharts and wrote the final engineering report to document how everything comes together
