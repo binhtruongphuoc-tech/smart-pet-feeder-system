@@ -44,6 +44,4 @@ The final system achieved a top 3 ranking in excellence during class presentatio
 
 ---
 ##  My Contributions
-I acted as the bridge between our **hardware**, **firmware**, and **mechanical design**, making sure all the layers worked together.
-
-I wrote the C drivers for the servo and buzzer and handled the PCB assembly, soldering everything myself for a clean, reliable build. I also built the housing and integrated the control board with the dispensing gate. My work involved a lot of 'messy' troubleshooting—fixing hardware glitches and debugging firmware to keep the system stable. Finally, I mapped out the software architecture and put together the final report to document the whole process.
+I worked across the **hardware**, **firmware**, and **mechanical sides** to get everything synced up. I wrote the C drivers for the servo and buzzer, and hand-soldered the PCB myself for a clean, reliable build. I also handled the housing and integration with the dispensing gate. A big part of the job was just grinding through the 'messy' stuff—debugging hardware glitches and firmware quirks to get the system stable. I wrapped it all up by documenting the architecture and writing the final report.
