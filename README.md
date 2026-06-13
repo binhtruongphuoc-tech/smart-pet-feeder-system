@@ -55,3 +55,13 @@ The final system achieved a top 3 ranking in excellence during class presentatio
 * **IoT Upgrade:** Integrating an ESP32/ESP8266 Wi-Fi module for cloud synchronization and remote app-based configurations.
 * **Closed-Loop Bowl Monitor:** Installing an infrared or proximity sensor on the feeding tray to prevent over-dispensing when food is left over.
 * **Power Redundancy:** Introducing a secondary battery backup line to secure feeding operations during standard blackouts.
+
+
+##  My Contributions
+As a core team member of this project, I was responsible for bridging the gap between hardware assembly, software logic, and mechanical design. My specific contributions include:
+
+* **Firmware Development:** Engineered the low-level C drivers for the SG90 Servo motor (PWM control) and the active buzzer for system alerts.
+* **Hardware Assembly & Soldering:** Hand-soldered the ICs and discrete components onto the custom PCB, ensuring reliable and clean electrical connections.
+* **Mechanical Integration:** Constructed and assembled the physical housing of the pet feeder, seamlessly integrating the electronic control board with the mechanical dispensing gate.
+* **Testing & Debugging:** Conducted extensive hardware-software integration testing, troubleshooting hardware quirks, and debugging firmware logic to ensure stable operation.
+* **System Design & Documentation:** Designed the software architecture flowcharts and authored the comprehensive final engineering report for the project.
