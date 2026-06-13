@@ -43,13 +43,6 @@ The final system achieved a top 3 ranking in excellence during class presentatio
 | ![Breadboard Test](images/breadboard.png) | ![Assembled PCB](images/final_pcb.png) | ![Enclosure Model](images/enclosure.png) |
 
 ---
-
-##  Future Enhancements
-* **IoT Upgrade:** Integrating an ESP32/ESP8266 Wi-Fi module for cloud synchronization and remote app-based configurations.
-* **Closed-Loop Bowl Monitor:** Installing an infrared or proximity sensor on the feeding tray to prevent over-dispensing when food is left over.
-* **Power Redundancy:** Introducing a secondary battery backup line to secure feeding operations during standard blackouts.
-
-
 ##  My Contributions
 I acted as the bridge between our **hardware**, **firmware**, and **mechanical design**, making sure all the layers worked together.
 
